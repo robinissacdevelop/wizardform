@@ -1,0 +1,88 @@
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+  display: none;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.step {
+  height: 10px;
+  width: 10px;
+  background-color: #dcdcdc;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.step.active {
+  background-color: #007bff;
+}
+
+#nextprevious {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#prevBtn,
+#nextBtn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#prevBtn {
+  background-color: #dcdcdc;
+}
+
+.thanks-message {
+  text-align: center;
+  display: none;
+}
+
+.thanks-message img {
+  margin-top: 20px;
+}
