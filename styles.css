@@ -267,3 +267,86 @@ select.list-dt:focus {
   width: 100%;
   object-fit: cover;
 }
+
+/*fornav*/
+.banner_text{
+  padding-left: 200px;
+}
+
+.jumbotron {
+  padding: 1rem 2rem;
+  background-image: 
+  radial-gradient(
+    farthest-corner circle at 49% 43%, 
+    #00dfff 5% -51%, #8c00ea 100%
+  )
+}
+.jumbotron h3{
+  padding-left: 112px;
+  color:#631f95;
+}
+.jumbotron h4{
+  padding-left: 172px;
+  color:#631f95;
+  
+}
+.pl-md-5, .px-md-5 {
+  padding-left: 4rem!important;
+  color: blue;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #drb{
+      display: none;
+  }
+  #tnlogo{
+      padding-left: 156px;
+      height:80px;
+  }
+  .jumbotron {
+    padding: 1rem 2rem;
+    background-image: 
+    radial-gradient(
+      farthest-corner circle at 49% 43%, 
+      #00dfff 5% -51%, #8c00ea 100%
+    )
+  }
+  .jumbotron h2{
+    font-size: 1rem;
+  }
+  .jumbotron h3{
+    padding-left :36px;
+    font-size: 1rem;
+  }
+  .jumbotron h4{
+    font-size: .75rem;
+        padding-left :72px;
+    
+  }
+  .banner_text{
+    padding-top: 35px;
+  }
+  .pl-md-5, .px-md-5 {
+    padding-left: 3rem!important;
+    color: blue;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
